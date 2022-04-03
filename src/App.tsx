@@ -31,8 +31,8 @@ const  App:React.FC = () =>  {
       <Box width={'100vw'} minHeight='100vh' mb={'67px'} >
         <Home />
         <Search />
-        <MovieDisplay name='Action' titles={testHorrorMoviesDB}  /> 
-         <MovieDisplay name='Comedy' titles={testComedyMoviesDB}/>
+        <MovieDisplay name='Comedy' titles={testComedyMoviesDB}/>
+        <MovieDisplay name='Horror' titles={testHorrorMoviesDB}  /> 
       </Box>
   );
 }
